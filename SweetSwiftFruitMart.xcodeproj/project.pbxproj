@@ -11,6 +11,10 @@
 		C5F2711328689E12000A06BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2711228689E12000A06BA /* ContentView.swift */; };
 		C5F2711528689E14000A06BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F2711428689E14000A06BA /* Assets.xcassets */; };
 		C5F2711828689E14000A06BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F2711728689E14000A06BA /* Preview Assets.xcassets */; };
+		C5F2712128689FAA000A06BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2712028689FAA000A06BA /* Home.swift */; };
+		C5F2712428694DF6000A06BA /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2712328694DF6000A06BA /* ProductRow.swift */; };
+		C5F271282869584F000A06BA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F271272869584F000A06BA /* ColorExtension.swift */; };
+		C5F2712B28695DE2000A06BA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2712A28695DE2000A06BA /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		C5F2711228689E12000A06BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5F2711428689E14000A06BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5F2711728689E14000A06BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5F2712028689FAA000A06BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C5F2712328694DF6000A06BA /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		C5F271272869584F000A06BA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C5F2712A28695DE2000A06BA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		C5F2710F28689E12000A06BA /* SweetSwiftFruitMart */ = {
 			isa = PBXGroup;
 			children = (
+				C5F2712928695DD3000A06BA /* Model */,
+				C5F2712528695814000A06BA /* Helper */,
+				C5F2712228694DE4000A06BA /* Home */,
 				C5F2711028689E12000A06BA /* SweetSwiftFruitMartApp.swift */,
 				C5F2711228689E12000A06BA /* ContentView.swift */,
 				C5F2711428689E14000A06BA /* Assets.xcassets */,
@@ -65,6 +76,39 @@
 				C5F2711728689E14000A06BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5F2712228694DE4000A06BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C5F2712028689FAA000A06BA /* Home.swift */,
+				C5F2712328694DF6000A06BA /* ProductRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C5F2712528695814000A06BA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C5F271262869581C000A06BA /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C5F271262869581C000A06BA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C5F271272869584F000A06BA /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C5F2712928695DD3000A06BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5F2712A28695DE2000A06BA /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F2712428694DF6000A06BA /* ProductRow.swift in Sources */,
 				C5F2711328689E12000A06BA /* ContentView.swift in Sources */,
+				C5F2712128689FAA000A06BA /* Home.swift in Sources */,
 				C5F2711128689E12000A06BA /* SweetSwiftFruitMartApp.swift in Sources */,
+				C5F271282869584F000A06BA /* ColorExtension.swift in Sources */,
+				C5F2712B28695DE2000A06BA /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
